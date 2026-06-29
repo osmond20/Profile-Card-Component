@@ -164,7 +164,7 @@ body {
 
 @media (min-width: 40rem) {
   body {
-    background-position: left -7rem top -25rem, right -6rem bottom -30rem;
+    background-position: left -1rem top -20rem, right -1rem bottom -20rem;
   }
   .parent-container {
     width: 350px;
