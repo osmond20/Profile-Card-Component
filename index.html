@@ -3,33 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <!--FONTS-->
+  <link
+  rel="preload"
+  href="fonts/kumbh-sans-v27-latin-700.woff2"
+  as="font"
+  type="font/woff2"
+  crossorigin
+  />
+  <link
+  rel="preload"
+  href="fonts/kumbh-sans-v27-latin-regular.woff2"
+  as="font"
+  type="font/woff2"
+  crossorigin
+  />
+  <!--Stylesheet-->
+  <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 0.6875rem; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  Victor Crest
-  26
-  London
-
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </footer>
+  <main class="parent-container">
+    <div class="profile-card-container">
+      <img class="profile-image" src="images/image-victor.jpg" alt="Image of User" height="20" width="20">
+      <section class="profile-info">
+        <div class="name-age-wrapper">
+          <h2 class="name">Victor Crest</h2>
+          <p class="age">26</p>
+        </div>
+        <p class="locale">London</p>
+      </section>
+      <section class="profile-stats">
+        <ul class="stats">
+          <li>
+            <h2 class="stat">80K</h2>
+            <p class="stat-description">Followers</p>
+          </li>
+          <li>
+             <h2 class="stat">803K</h2>
+            <p class="stat-description">Likes</p>
+          </li>
+          <li>
+            <h2 class="stat">1.4K</h2>
+            <p class="stat-description">Photos</p>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </main>
 </body>
 </html>

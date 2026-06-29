@@ -1,1 +1,127 @@
-/*# sourceMappingURL=styles.css.map */
+/* kumbh-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/kumbh-sans-v27-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* kumbh-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/kumbh-sans-v27-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+:root {
+  --primary-blue-600:hsl(185, 75%, 39%);
+  --primary-navy-950:hsl(229, 23%, 23%);
+  --primary-gray-500:hsl(227, 10%, 46%);
+  --neutral-gray-100:hsl(225, 10%, 92%);
+  --font-size-name-and-stats: 1.125rem;
+  --font-family: 'Kumbh Sans', sans-serif;
+  --mobile-width: 23.4375rem;
+  --desktop-width:90rem;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img,
+picture,
+video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+body {
+  background-color: var(--primary-blue-600);
+  background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left -10rem top -10rem, right -10rem bottom -7rem;
+  background-size: contain, contain;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent-container {
+  height: 100%;
+  width: var(--mobile-width);
+  display: flex;
+  justify-content: center;
+}
+
+.profile-card-container {
+  height: 375px;
+  width: 326px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--neutral-gray-100);
+  background-image: url(images/bg-pattern-card.svg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% 160px;
+}
+
+.profile-image {
+  border-radius: 50px;
+  width: 94.5px;
+}
+
+.profile-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.name-age-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-stats {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.stats {
+  display: flex;
+  gap: 10px;
+}/*# sourceMappingURL=styles.css.map */
