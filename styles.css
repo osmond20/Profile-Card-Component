@@ -121,6 +121,10 @@ body {
   padding-bottom: 0.78125rem;
 }
 
+.name {
+  font-size: 1.2rem;
+}
+
 .age {
   font-size: 1rem;
   color: var(--primary-gray-500);
