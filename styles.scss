@@ -27,6 +27,10 @@
     --font-family: 'Kumbh Sans', sans-serif;
     --mobile-width: 23.4375rem;
     --desktop-width:90rem;
+    --spacing-sm: 1.25rem;
+    --spacing-xs: 0.78125rem;
+    --spacing-xxs: 0.3125rem;
+    --spacing-text: 1.25rem;
 }
 
 // CSS RESET
@@ -103,9 +107,9 @@ body{
 }
 
 .profile-image{
-    margin-bottom: 1.25rem;
+    margin-bottom: var(--spacing-sm);
     border: 5px solid var(--white);
-    border-radius: 3.125rem;
+    border-radius: var(--spacing-xxs);
     width: 6.5625rem;
 }
 
@@ -120,9 +124,9 @@ body{
 .name-age-wrapper{
     display: flex;
     align-items: center;
-    gap: 0.3125rem;
+    gap: var(--spacing-xxs);
     font-size: 0.8rem;
-    padding-bottom: 0.78125rem;
+    padding-bottom: var(--spacing-xs)
 }
 
 .name{
@@ -135,7 +139,7 @@ body{
 }
 
 .locale{
-    padding-bottom: 1.25rem;
+    padding-bottom: var(--spacing-text);
     font-size: 0.85rem;
     color: var(--primary-gray-500);
 }
@@ -150,7 +154,7 @@ body{
 }
 
 .stats{
-  padding-top: 0.3125rem;
+  padding-top: var(--spacing-xxs);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -167,7 +171,7 @@ body{
   text-align: center;
   font-size: 0.6rem;
   letter-spacing: 0.2em;
-  padding-bottom: 0.3125rem;
+  padding-bottom: var(--spacing-xxs);
 }
 
 @media(min-width:40rem){
