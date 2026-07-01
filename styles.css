@@ -102,7 +102,7 @@ body {
 }
 
 .profile-image {
-  margin-block: var(--spacing-sm);
+  margin-block-end: var(--spacing-sm);
   border: 5px solid var(--white);
   border-radius: 3.125rem;
   width: 6.5625rem;
@@ -120,7 +120,7 @@ body {
   display: flex;
   align-items: center;
   gap: var(--spacing-xxs);
-  padding-block: var(--spacing-xs);
+  padding-block-end: var(--spacing-xs);
 }
 
 .name {
@@ -133,7 +133,7 @@ body {
 }
 
 .locale {
-  padding-bottom: var(--spacing-sm);
+  padding-block-end: var(--spacing-sm);
   font-size: clamp(0.85rem, 0vw + 0.85rem, 0.85rem);
   color: var(--primary-gray-500);
 }
@@ -158,14 +158,14 @@ body {
 .stat {
   text-align: center;
   font-size: clamp(1.1rem, 0vw + 1.1rem, 1.1rem);
-  padding-bottom: 0.5rem;
+  padding-block-end: 0.5rem;
 }
 
 .stat-description {
   text-align: center;
   font-size: clamp(0.6rem, 0vw + 0.6rem, 0.6rem);
   letter-spacing: 0.2em;
-  padding-bottom: var(--spacing-xxs);
+  padding-block-end: var(--spacing-xxs);
 }
 
 @media (min-width: 40rem) {
