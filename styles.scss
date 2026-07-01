@@ -27,10 +27,9 @@
     --font-family: 'Kumbh Sans', sans-serif;
     --mobile-width: 23.4375rem;
     --desktop-width:90rem;
-    --spacing-sm: 1.25rem;
-    --spacing-xs: 0.78125rem;
-    --spacing-xxs: 0.3125rem;
-    --spacing-text: 1.25rem;
+    --spacing-sm: calc(20 / 16 * 1rem);
+    --spacing-xs: calc(12.5 / 16 * 1rem);
+    --spacing-xxs: calc(5 / 16 * 1rem);
 }
 
 // CSS RESET
@@ -139,7 +138,7 @@ body{
 }
 
 .locale{
-    padding-bottom: var(--spacing-text);
+    padding-bottom: var(--spacing-sm);
     font-size: 0.85rem;
     color: var(--primary-gray-500);
 }
