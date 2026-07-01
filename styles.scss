@@ -88,9 +88,9 @@ body{
 }
 
 .profile-card-container{
-    height: 375px;
-    width: 326px;
-    border-radius: 15px;
+    height: 23.4375rem;
+    width: 20.375rem;
+    border-radius: 0.9375rem;
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -99,14 +99,14 @@ body{
     background-image: url(images/bg-pattern-card.svg);
     background-repeat: no-repeat;
     background-position: center -1.25rem;
-    background-size: 100% 160px ;
+    background-size: 100% 0.625rem;
 }
 
 .profile-image{
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     border: 5px solid var(--white);
-    border-radius: 50px;
-    width: 105px;
+    border-radius: 3.125rem;
+    width: 6.5625rem;
 }
 
 .profile-info{
@@ -120,9 +120,9 @@ body{
 .name-age-wrapper{
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 0.3125rem;
     font-size: 0.8rem;
-    padding-bottom: 12.5px;
+    padding-bottom: 0.78125rem;
 }
 
 .age{
@@ -131,7 +131,7 @@ body{
 }
 
 .locale{
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
     font-size: 0.85rem;
     color: var(--primary-gray-500);
 }
@@ -141,29 +141,29 @@ body{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 90px;
+    height: 5.625rem;
     border-top: 1px solid var(--neutral-gray-100);
 }
 
 .stats{
-  padding-top: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap:40px;
+  padding-top: 0.3125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:2.5rem;
 }
 
 .stat{
   text-align: center;
   font-size: 1.1rem;
-  padding-bottom: 8px;
+  padding-bottom: 0.5rem;
 }
 
 .stat-description{
   text-align: center;
   font-size: 0.6rem;
   letter-spacing: 0.2em;
-  padding-bottom: 5px;
+  padding-bottom: 0.3125rem;
 }
 
 @media(min-width:40rem){
@@ -173,7 +173,7 @@ body{
   }
 
   .parent-container{
-    width:350px;
+    width:21.875rem;
   }
 
   .profile-card-container{
