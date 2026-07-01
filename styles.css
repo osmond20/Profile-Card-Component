@@ -120,21 +120,21 @@ body {
   display: flex;
   align-items: center;
   gap: var(--spacing-xxs);
-  padding-bottom: var(--spacing-xs);
+  padding-block: var(--spacing-xs);
 }
 
 .name {
-  font-size: 1.2rem;
+  font-size: clamp(1.2rem, 0vw + 1.2rem, 1.2rem);
 }
 
 .age {
-  font-size: 1rem;
+  font-size: clamp(1rem, 0vw + 1rem, 1rem);
   color: var(--primary-gray-500);
 }
 
 .locale {
   padding-bottom: var(--spacing-sm);
-  font-size: 0.85rem;
+  font-size: clamp(0.85rem, 0vw + 0.85rem, 0.85rem);
   color: var(--primary-gray-500);
 }
 
@@ -157,13 +157,13 @@ body {
 
 .stat {
   text-align: center;
-  font-size: 1.1rem;
+  font-size: clamp(1.1rem, 0vw + 1.1rem, 1.1rem);
   padding-bottom: 0.5rem;
 }
 
 .stat-description {
   text-align: center;
-  font-size: 0.6rem;
+  font-size: clamp(0.6rem, 0vw + 0.6rem, 0.6rem);
   letter-spacing: 0.2em;
   padding-bottom: var(--spacing-xxs);
 }
