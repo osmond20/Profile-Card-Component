@@ -162,7 +162,7 @@ body{
 .stat{
   text-align: center;
   font-size: clamp(1.1rem, 0vw + 1.1rem, 1.1rem);
-  padding-block-end: 0.5rem;
+  padding-block-end: calc(8 / 16 * 1rem);
 }
 
 .stat-description{
