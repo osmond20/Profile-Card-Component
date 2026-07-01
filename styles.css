@@ -148,7 +148,7 @@ body {
 }
 
 .stats {
-  padding-top: var(--spacing-xxs);
+  padding-block-start: var(--spacing-xxs);
   display: flex;
   align-items: center;
   justify-content: center;
