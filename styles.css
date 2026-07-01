@@ -105,7 +105,7 @@ body {
 .profile-image {
   margin-bottom: var(--spacing-sm);
   border: 5px solid var(--white);
-  border-radius: var(--spacing-xxs);
+  border-radius: 0.3125rem;
   width: 6.5625rem;
 }
 
