@@ -98,14 +98,14 @@ body {
   background-color: var(--white);
   background-image: url(images/bg-pattern-card.svg);
   background-repeat: no-repeat;
-  background-position: center -1.25rem;
-  background-size: 100% 0.625rem;
+  background-position: center top;
+  background-size: 100% auto;
 }
 
 .profile-image {
   margin-bottom: var(--spacing-sm);
   border: 5px solid var(--white);
-  border-radius: 0.3125rem;
+  border-radius: 3.125rem;
   width: 6.5625rem;
 }
 
